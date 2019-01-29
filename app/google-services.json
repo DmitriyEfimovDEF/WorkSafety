@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "472624702677",
+    "firebase_url": "https://worksa-39622.firebaseio.com",
+    "project_id": "worksa-39622",
+    "storage_bucket": "worksa-39622.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472624702677:android:74818d03740a9a6e",
+        "android_client_info": {
+          "package_name": "ru.aisdev.worksafety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472624702677-urr59uecsu0uu219drbnh4iirgcedt9e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.aisdev.worksafety",
+            "certificate_hash": "1eabbb96c4b639c356e46d8389c63de67c7820c4"
+          }
+        },
+        {
+          "client_id": "472624702677-76ceu4i7recpnr41dbia8sih3pd8tpfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8xXfB89tokdkQ2575hijP1AOVy16juaA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472624702677-76ceu4i7recpnr41dbia8sih3pd8tpfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
