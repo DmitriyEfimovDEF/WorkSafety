@@ -77,7 +77,7 @@ public class MainActivity extends BaseActivity implements DialogUtilities.OnComp
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         activity = MainActivity.this;
@@ -85,8 +85,8 @@ public class MainActivity extends BaseActivity implements DialogUtilities.OnComp
         categoryList = new ArrayList<>();
 
 
-        mNotificationView = (RelativeLayout) findViewById(R.id.notificationView);
-        recyclerView = (RecyclerView) findViewById(R.id.rvContentScore);
+        mNotificationView = findViewById(R.id.notificationView);
+        recyclerView = findViewById(R.id.rvContentScore);
         recyclerView.setLayoutManager(new GridLayoutManager(activity, 2, GridLayoutManager.VERTICAL, false));
 
         adapter = new CategoryAdapter(context, activity, categoryList);
@@ -126,18 +126,16 @@ public class MainActivity extends BaseActivity implements DialogUtilities.OnComp
                 .addDrawerItems(
                         new PrimaryDrawerItem().withName("О приложении").withIcon(R.drawable.ic_dev).withIdentifier(10).withSelectable(false),
 
-                        new SecondaryDrawerItem().withName("YouTube").withIcon(R.drawable.ic_youtube).withIdentifier(20).withSelectable(false),
+//                        new SecondaryDrawerItem().withName("YouTube").withIcon(R.drawable.ic_youtube).withIdentifier(20).withSelectable(false),
                         new SecondaryDrawerItem().withName("Facebook").withIcon(R.drawable.ic_facebook).withIdentifier(21).withSelectable(false),
-                        new SecondaryDrawerItem().withName("Twitter").withIcon(R.drawable.ic_twitter).withIdentifier(22).withSelectable(false),
-                        new SecondaryDrawerItem().withName("Google+").withIcon(R.drawable.ic_google_plus).withIdentifier(23).withSelectable(false),
+//                        new SecondaryDrawerItem().withName("Twitter").withIcon(R.drawable.ic_twitter).withIdentifier(22).withSelectable(false),
+//                        new SecondaryDrawerItem().withName("Google+").withIcon(R.drawable.ic_google_plus).withIdentifier(23).withSelectable(false),
 
                         new DividerDrawerItem(),
                         new SecondaryDrawerItem().withName("Настройки").withIcon(R.drawable.ic_settings).withIdentifier(30).withSelectable(false),
                         new SecondaryDrawerItem().withName("Оцените приложение").withIcon(R.drawable.ic_rating).withIdentifier(31).withSelectable(false),
                         new SecondaryDrawerItem().withName("Поделитесь").withIcon(R.drawable.ic_share).withIdentifier(32).withSelectable(false),
                         new SecondaryDrawerItem().withName("Соглашения").withIcon(R.drawable.ic_privacy_policy).withIdentifier(33).withSelectable(false),
-
-                        new DividerDrawerItem(),
                         new SecondaryDrawerItem().withName("Выход").withIcon(R.drawable.ic_exit).withIdentifier(40).withSelectable(false)
 
 
@@ -263,7 +261,7 @@ public class MainActivity extends BaseActivity implements DialogUtilities.OnComp
                 boolean purchased = PreferenceManager.getDefaultSharedPreferences(activity).getBoolean(AppConstants.PRODUCT_ID_BOUGHT, false);
                 boolean subscribed = PreferenceManager.getDefaultSharedPreferences(activity).getBoolean(AppConstants.PRODUCT_ID_SUBSCRIBE, false);
 
-                if (position > 3 && !purchased && !subscribed) {
+                if (position > 6 && !purchased && !subscribed) {
                     // Toast.makeText(mActivity, R.string.alert_for_purchase , Toast.LENGTH_SHORT).show();
                     Snackbar.make(view, R.string.alert_for_purchase, Snackbar.LENGTH_LONG)
                             .setAction("Ок", new View.OnClickListener() {

@@ -2,27 +2,27 @@
   "items": [
     {
       "question_category": "1",
-      "category_name": "Тест 1"
+      "category_name": "Билет 1"
     },
     {
       "question_category": "2",
-      "category_name": "Тест 2"
+      "category_name": "Билет 2"
     },
     {
       "question_category": "3",
-      "category_name": "Тест 3"
+      "category_name": "Билет 3"
     },
     {
       "question_category": "4",
-      "category_name": "Тест 4"
+      "category_name": "Билет 4"
     },
     {
       "question_category": "5",
-      "category_name": "Тест 5"
+      "category_name": "Билет 5"
     },
     {
       "question_category": "6",
-      "category_name": "Тест 6"
+      "category_name": "Билет 6"
     }
   ]
 }

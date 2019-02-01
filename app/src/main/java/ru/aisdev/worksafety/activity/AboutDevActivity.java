@@ -19,10 +19,10 @@ public class AboutDevActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_dev);
 
-        imageView = (ImageView) findViewById(R.id.imgDev);
-        tvDevTitle = (TextView) findViewById(R.id.tvDevTitle);
-        tvDevSubTitle = (TextView) findViewById(R.id.tvDevSubtitle);
-        tvDevText = (TextView) findViewById(R.id.tvDevText);
+        imageView = findViewById(R.id.imgDev);
+        tvDevTitle = findViewById(R.id.tvDevTitle);
+        tvDevSubTitle = findViewById(R.id.tvDevSubtitle);
+        tvDevText = findViewById(R.id.tvDevText);
 
         initToolbar(true);
         setToolbarTitle(getString(R.string.about_dev));

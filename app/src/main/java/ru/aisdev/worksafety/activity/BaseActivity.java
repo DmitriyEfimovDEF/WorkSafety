@@ -63,8 +63,8 @@ public class BaseActivity extends AppCompatActivity {
     }
 
     public void initLoader() {
-        loadingView = (LinearLayout) findViewById(R.id.loadingView);
-        noDataView = (LinearLayout) findViewById(R.id.noDataView);
+        loadingView = findViewById(R.id.loadingView);
+        noDataView = findViewById(R.id.noDataView);
     }
 
     public void showLoader() {

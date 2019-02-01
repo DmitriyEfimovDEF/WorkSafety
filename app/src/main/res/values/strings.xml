@@ -5,11 +5,11 @@
     <string name="tap_again">Нажмите Назад еще раз для выхода</string>
 
     <!-- app social site links section -->
-    <string name="facebook_url">https://www.facebook.com/pg/fandroidinfo/</string>
-    <string name="youtube_url">https://www.youtube.com/user/vitaxafication</string>
-    <string name="twitter_user_id">twitter://user?user_id=1329640969</string> <!-- find your user id from here: http://gettwitterid.com/  -->
-    <string name="twitter_url">https://twitter.com/nepochatoff</string>
-    <string name="google_plus_url">https://plus.google.com/u/0/+vitaxafication</string>
+    <string name="facebook_url">https://www.facebook.com/dima_def/</string>
+    <string name="youtube_url">https://www.youtube.com/user/GIPO</string>
+    <string name="twitter_user_id">twitter://user?user_id=1111111111</string> <!-- find your user id from here: http://gettwitterid.com/  -->
+    <string name="twitter_url">https://twitter.com/efimoffda</string>
+    <string name="google_plus_url">https://plus.google.com/dima_def</string>
 
     <!-- privacy policy url -->
     <string name="privacy_url">https://docs.google.com/document/d/1ZUrFQwbxDTpg_o9UUx9NtH_JtOSmVuZqD2FTLBJ5qno/edit?usp=sharing</string>
@@ -19,7 +19,7 @@
 
     <!-- about developer text  -->
     <string name="developer_name">aisdev.ru</string>
-    <string name="developer_detail">Разработка мобильных приложений</string>
+    <string name="developer_detail">Тестирование знаний по безопасности труда</string>
     <string name="developer_message">Данное приложение является сборником тестов по безопасности труда.
         Приложение можно использовать для проверки знаний сотрудников о технике безопасности во время исполненеия трудовых обязанностей.
         </string>
@@ -63,7 +63,7 @@
     <string name="google_plus">Google Plus</string>
 
     <string name="others">Others</string>
-    <string name="site">Fandroid.info</string>
+    <string name="site">aisdev.ru</string>
     <string name="privacy">Privacy Policy</string>
     <string name="share">Поделиться</string>
     <string name="rate">Оцените приложение</string>
@@ -141,5 +141,7 @@
     <string name="quiz_promt_first_text">Предыдущий результат: %s из %s</string>
     <string name="quiz_question_title">Вопрос %d из %d</string>
     <string name="play_again">попробовать еще раз</string>
+    <string name="start_test">Начать тестирование</string>
+    <string name="decline_test">отложить</string>
 
 </resources>

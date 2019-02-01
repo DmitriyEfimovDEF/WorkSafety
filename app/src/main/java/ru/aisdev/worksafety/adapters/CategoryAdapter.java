@@ -110,9 +110,9 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
             super(itemView);
 
             this.itemClickListener = itemClickListener;
-            lytContainer = (RelativeLayout) itemView.findViewById(R.id.lytContainer);
-            tvCategoryId = (TextView) itemView.findViewById(R.id.categoryId);
-            tvCategoryTitle = (TextView) itemView.findViewById(R.id.titleText);
+            lytContainer = itemView.findViewById(R.id.lytContainer);
+            tvCategoryId = itemView.findViewById(R.id.categoryId);
+            tvCategoryTitle = itemView.findViewById(R.id.titleText);
 
             lytContainer.setOnClickListener(this);
         }

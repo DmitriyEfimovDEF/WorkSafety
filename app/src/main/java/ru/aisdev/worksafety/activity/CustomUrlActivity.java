@@ -55,7 +55,7 @@ public class CustomUrlActivity extends BaseActivity {
     }
 
     public void initWebEngine() {
-        webView = (WebView) findViewById(R.id.webView);
+        webView = findViewById(R.id.webView);
 
         webEngine = new WebEngine(webView, activity);
         webEngine.initWebView();

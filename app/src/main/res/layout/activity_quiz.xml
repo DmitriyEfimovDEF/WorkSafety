@@ -32,9 +32,10 @@
                 android:id="@+id/firstLife"
                 android:layout_width="22dp"
                 android:layout_height="22dp"
+                android:background="@color/transparent_white"
                 android:contentDescription="@string/app_name"
                 android:padding="3dp"
-                android:src="@drawable/ic_heart" />
+                android:src="@drawable/ic_shield" />
 
             <ImageView
                 android:id="@+id/secondLife"
@@ -42,7 +43,7 @@
                 android:layout_height="22dp"
                 android:contentDescription="@string/app_name"
                 android:padding="3dp"
-                android:src="@drawable/ic_heart" />
+                android:src="@drawable/ic_shield" />
 
             <ImageView
                 android:id="@+id/thirdLife"
@@ -50,7 +51,7 @@
                 android:layout_height="22dp"
                 android:contentDescription="@string/app_name"
                 android:padding="3dp"
-                android:src="@drawable/ic_heart" />
+                android:src="@drawable/ic_shield" />
 
             <ImageView
                 android:id="@+id/fourthLife"
@@ -58,7 +59,7 @@
                 android:layout_height="22dp"
                 android:contentDescription="@string/app_name"
                 android:padding="3dp"
-                android:src="@drawable/ic_heart" />
+                android:src="@drawable/ic_shield" />
 
             <ImageView
                 android:id="@+id/fifthLife"
@@ -66,7 +67,7 @@
                 android:layout_height="22dp"
                 android:contentDescription="@string/app_name"
                 android:padding="3dp"
-                android:src="@drawable/ic_heart" />
+                android:src="@drawable/ic_shield" />
 
         </LinearLayout>
 
