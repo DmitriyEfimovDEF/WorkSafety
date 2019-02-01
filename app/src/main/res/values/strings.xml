@@ -25,13 +25,13 @@
         </string>
 
     <!-- app ad section -->
-    <string name="app_ad_id">123</string>
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="rewarded_ad_unit_id">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="app_ad_id">ca-app-pub-2429433114199537~6040637275</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2429433114199537/8271338500</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-2429433114199537/3869059067</string>
+    <string name="rewarded_ad_unit_id">cca-app-pub-2429433114199537/6519273135</string>
 
     <!-- billing section -->
-    <string name="google_play_license">123</string>
+    <string name="google_play_license">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnLu9lRYnSetAfeHDCpOVu5MdpEqsfA+hTVkcP1anIj+tPj+suDwsUNhiSClBwkzkbvQzCk1W1WsuDKaXtKohFEz3a6YxSbLEs9qGlHDguMMP2INqO6AQaGv/7s63/cwcn9xGKb2SwZtpGAbTTSy/G91Tyx4z3z89Znnj52eFkhUosKPljE5mSFW8G9xTaqY6/kWxCHnuVyUKd1G10zNOg9QqrfXH8E8dAn5dc2P5CjZ8BdDCmMqgBIaogy+O4cTj1PjasS1yZsfUk2oN0Dg6lCA3tHEtyBYbnT2cD1GYxv7A8n3ylzzOacQm6509sRBXYeo871s5pjRxl9QbkbQF4wIDAQAB</string>
 
     <string name="settings_billing">Дополнительные возможности</string>
     <string name="settings_billing_summary">Управление покупками</string>
