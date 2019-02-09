@@ -9,8 +9,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
-import com.crashlytics.android.Crashlytics;
-import io.fabric.sdk.android.Fabric;
+//import com.crashlytics.android.Crashlytics;
+//import io.fabric.sdk.android.Fabric;
 import ru.aisdev.worksafety.R;
 import ru.aisdev.worksafety.utilities.ActivityUtilities;
 
@@ -26,7 +26,7 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Fabric.with(this, new Crashlytics());
+//        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_splash);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         layout = (ConstraintLayout) findViewById(R.id.splashLayout);
