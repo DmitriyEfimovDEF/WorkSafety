@@ -65,9 +65,17 @@
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorAccent" />
+        <!--<meta-data-->
+            <!--android:name="io.fabric.ApiKey"-->
+            <!--android:value="6b6ab9c8c3f245440d8caf4e093af7c23964ae1a"/>-->
         <meta-data
-            android:name="io.fabric.ApiKey"
-            android:value="6b6ab9c8c3f245440d8caf4e093af7c23964ae1a"/>
+            android:name="com.google.android.gms.ads.ca-app-pub-2429433114199537~6040637275"
+            android:value="[ADMOB_APP_ID]"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+
+
     </application>
 
 </manifest>

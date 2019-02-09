@@ -28,9 +28,9 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 //        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.activity_splash);
-        progressBar = (ProgressBar) findViewById(R.id.progressBar);
-        layout = (ConstraintLayout) findViewById(R.id.splashLayout);
-        imageView = (ImageView) findViewById(R.id.ivSplashIcon);
+        progressBar = findViewById(R.id.progressBar);
+        layout = findViewById(R.id.splashLayout);
+        imageView = findViewById(R.id.ivSplashIcon);
         animation = AnimationUtils.loadAnimation(getBaseContext(), R.anim.rotate);
     }
 
